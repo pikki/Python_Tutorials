@@ -1,0 +1,2 @@
+while(yes):
+    print('Himal')
