@@ -26,6 +26,24 @@ m = list(range(1,11))
 # for i in range(0,5):
 #     print(-i)
 
-names = "kaustubh", "alan", "mark", "simone"
+# names = "kaustubh", "alan", "mark", "simone"
+#
+# print([i[0] for i in names])
 
-print([i[0] for i in names])
+l = list(range(1,11))
+# print([i for i in l if i%2 ==0 i*2 else -i])
+
+# [append (if)      if statement  elif append  else append     for loop]
+
+numbers = []
+
+print(['Start' if i == 2  elif i ==4 'working' else -i for i in l])
+
+for i in l:
+    if i%2 == 0:
+        numbers.append(i*2)
+    else:
+        numbers.append(-i)
+
+print(numbers)
+
